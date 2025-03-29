@@ -1,0 +1,36 @@
+.sliding-window2 {
+  /* width: 80%;  Set desired width */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border:solid black; */
+    margin: auto;
+  
+  z-index: -1;
+  }
+  
+  .slider-container2 {
+    width: 100%;  /* Set desired width */
+    overflow: hidden;
+    border: 1px solid #ddd;
+    
+    z-index: -1;
+    /* border:solid red */
+  }
+  
+  .slider2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+  }
+  
+  .slide2 {
+    width: 16.66%;  /* Match container width */
+    flex-shrink: 0;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    /* border:solid red */
+  }
+  

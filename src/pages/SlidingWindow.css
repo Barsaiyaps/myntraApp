@@ -1,0 +1,32 @@
+.sliding-window {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    z-index: -1;
+    /* border:solid red */
+  }
+  
+  .slider-container {
+    width: 100%;  /* Set desired width */
+    overflow: hidden;
+    border: 1px solid #ddd;
+    z-index: -1;
+    /* border:solid red */
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  .slide {
+    width: 100%;  /* Match container width */
+    flex-shrink: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:solid red */
+  }
+  

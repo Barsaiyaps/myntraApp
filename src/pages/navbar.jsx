@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <>
-      <Box id="box" bg="white" px={4} padding="10px 50px 10px 50px"  display="grid" position="fixed" z-index="1000"    width="100vw" >
+      <Box id="box" bg="white" px={4} padding="10px 50px 10px 50px"  display="grid" position="absolute" z-index="1000"    width="100vw" >
         <Flex h={16} alignItems="center" justifyContent="space-between" margin="auto" z-index="1000">
           <HStack spacing={8} alignItems="center" z-index="1000">
             <Image
